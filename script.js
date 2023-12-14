@@ -79,10 +79,14 @@ function play() {
 
   if (computerScore === 2) {
     finalWinner.innerHTML = "Computer is the FINAL WINNER!";
+    userScore = 0;
+    computerScore = 0;
+    tieScore = 0;
   } else if ( userScore === 2){
     finalWinner.innerHTML = "User is the FINAL WINNER!";
+    userScore = 0;
+    computerScore = 0;
+    tieScore = 0;
   }
-  userScore = 0;
-  computerScore = 0;
-  tieScore = 0;
+  
 }
