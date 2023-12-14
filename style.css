@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+  font-size: 80px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  border: solid #008CBA;
+  background-color: #008CBA;
+}
+.btn {
+  background-color: #008CBA;
+  font-size: 20px;
+  color: white;
+  height: 60px;
+  width: 100px;
+  border-radius: 20%;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.message {
+  color: #008CBA;
+  font-weight: bold;
+}
+.winnerMessage {
+  color: white;
+  font-weight: 900;
+  background: #008CBA;
+  margin: 80px 910px;
+}
+.finalWinner {
+  color: white;
+  font-weight: 900;
+  background: #17a738;
+  margin: 80px 910px;
+}
